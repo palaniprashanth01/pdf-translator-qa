@@ -1,6 +1,35 @@
-.config/
-sample_data/
-__pycache__/
+
+# Python bytecode
 *.pyc
-*.ipynb_checkpoints
-.env
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment folders
+env/
+venv/
+*.env
+
+# Gradio temp files
+*.h5
+*.bin
+*.onnx
+*.pth
+*.ckpt
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Colab files
+*.colab
+
+# Git
+.git/
+
+# System files
+.DS_Store
+Thumbs.db
