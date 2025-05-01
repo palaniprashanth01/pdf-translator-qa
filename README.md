@@ -1,37 +1,22 @@
-# Knowledge Graph Generator
+# PDF Translator and QA System
 
-This project allows you to generate a knowledge graph from any uploaded PDF. It uses natural language processing (NLP) techniques to extract entities, relationships, and visualize them as a graph.
+This project is a **PDF Translator and Question-Answering (QA) System** that extracts content from PDFs, translates the text, and generates multiple-choice questions (MCQs) based on Bloom's Taxonomy. It uses various Natural Language Processing (NLP) techniques and machine learning models to provide automated translations and question generation.
 
-## 📌 Features
+## Features
 
-- Extract text from PDFs using PyMuPDF
-- Named Entity Recognition (NER) with spaCy
-- Relationship extraction using dependency parsing and heuristics
-- Visualize graphs with NetworkX and matplotlib
-- Question generation based on Bloom's Taxonomy
+- **PDF Translation**: Extract text from a PDF and translate it into a different language.
+- **Question Generation**: Generate multiple-choice questions from the translated content using Bloom’s Taxonomy.
+- **User-friendly Interface**: Built with Google Colab for easy usage and integration.
+  
+## Requirements
 
-## 🧠 Technologies Used
+- Python 3.x
+- Google Colab (for easy setup and execution)
+- Necessary Python libraries: `spaCy`, `transformers`, `deep_translator`, `PyMuPDF`, `nltk`, `RAKE-NLP`, etc.
 
-- Python
-- spaCy
-- NetworkX
-- matplotlib
-- wikipedia-api
-- PyMuPDF
-- Google Colab (for notebook development)
+## Installation
 
-## 🚀 How to Use
+To use this project, clone the repository to your local machine or directly use it on Google Colab:
 
-1. Upload a PDF.
-2. Run the notebook in Google Colab.
-3. View the extracted knowledge graph and generated questions.
-
-## 🛠️ Future Work
-
-- Add support for OCR on scanned PDFs
-- Improve relation extraction using transformer models
-- Integrate web UI with Gradio
-
-## 👨‍💻 Author
-
-- **Palani Prashanth B** – [GitHub](https://github.com/palaniprashanth01)
+```bash
+git clone https://github.com/palaniprashanth01/pdf-translator-qa.git
