@@ -16,7 +16,6 @@ This project is a **PDF Translator and Question-Answering (QA) System** that ext
 
 ## Installation
 
-To use this project, clone the repository to your local machine or directly use it on Google Colab:
+To use this project, clone the repository to your local machine or directly use it on Google Colab.
 
-```bash
 git clone https://github.com/palaniprashanth01/pdf-translator-qa.git
